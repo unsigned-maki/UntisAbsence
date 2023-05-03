@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C59DBB50-4609-46DB-970C-B1832866269A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntisAbsence.Api", "src\UntisAbsence.Api\UntisAbsence.Api.csproj", "{FC92D73D-4FD5-402A-911C-B198FE526620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntisAbsence.Domain", "src\UntisAbsence.Domain\UntisAbsence.Domain.csproj", "{809E9331-B054-4D73-8482-6CFA01E13A04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC92D73D-4FD5-402A-911C-B198FE526620} = {C59DBB50-4609-46DB-970C-B1832866269A}
+		{809E9331-B054-4D73-8482-6CFA01E13A04} = {C59DBB50-4609-46DB-970C-B1832866269A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC92D73D-4FD5-402A-911C-B198FE526620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC92D73D-4FD5-402A-911C-B198FE526620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC92D73D-4FD5-402A-911C-B198FE526620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC92D73D-4FD5-402A-911C-B198FE526620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809E9331-B054-4D73-8482-6CFA01E13A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809E9331-B054-4D73-8482-6CFA01E13A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809E9331-B054-4D73-8482-6CFA01E13A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809E9331-B054-4D73-8482-6CFA01E13A04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
