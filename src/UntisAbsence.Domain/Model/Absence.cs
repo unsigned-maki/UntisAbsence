@@ -3,5 +3,5 @@
 public sealed record Absence
 {
     public int AbsenceId { get; set; }
-    public DateOnly AnbsenceDate { get; set; }
+    public DateOnly AbsenceDate { get; set; }
 }
