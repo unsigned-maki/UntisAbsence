@@ -2,7 +2,7 @@
 
 namespace UntisAbsence.Domain.Models;
 
-public sealed record Absence
+public sealed record Absence    
 {
     public int AbsenceId { get; init; }
     
@@ -10,7 +10,9 @@ public sealed record Absence
     
     public required WeekDay Day { get; set; }
     
-    public required TimeOnly Time { get; set; }
+    public required TimeOnly TimeFrom { get; set; }
+    
+    public required TimeOnly TimeTo { get; set; }
     
     public int AbsenceHours { get; set; }
     
