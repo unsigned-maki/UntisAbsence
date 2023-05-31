@@ -16,5 +16,5 @@ public sealed record Absence
     
     public int AbsenceHours { get; set; }
     
-    public bool Late { get; set; }
+    public required bool Late { get; set; }
 }
